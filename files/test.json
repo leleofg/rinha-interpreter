@@ -1,0 +1,104 @@
+{
+  "name": "files/test.rinha",
+  "expression": {
+    "kind": "Let",
+    "name": {
+      "text": "a",
+      "location": {
+        "id": 0,
+        "start": 4,
+        "end": 5,
+        "filename": "files/test.rinha"
+      }
+    },
+    "value": {
+      "kind": "Int",
+      "value": 1,
+      "location": {
+        "id": 1,
+        "start": 8,
+        "end": 9,
+        "filename": "files/test.rinha"
+      }
+    },
+    "next": {
+      "kind": "Let",
+      "name": {
+        "text": "b",
+        "location": {
+          "id": 2,
+          "start": 15,
+          "end": 16,
+          "filename": "files/test.rinha"
+        }
+      },
+      "value": {
+        "kind": "Int",
+        "value": 2,
+        "location": {
+          "id": 3,
+          "start": 19,
+          "end": 20,
+          "filename": "files/test.rinha"
+        }
+      },
+      "next": {
+        "kind": "Print",
+        "value": {
+          "kind": "Binary",
+          "lhs": {
+            "kind": "Var",
+            "text": "b",
+            "location": {
+              "id": 4,
+              "start": 28,
+              "end": 29,
+              "filename": "files/test.rinha"
+            }
+          },
+          "op": "Gt",
+          "rhs": {
+            "kind": "Var",
+            "text": "a",
+            "location": {
+              "id": 5,
+              "start": 32,
+              "end": 33,
+              "filename": "files/test.rinha"
+            }
+          },
+          "location": {
+            "id": 6,
+            "start": 28,
+            "end": 33,
+            "filename": "files/test.rinha"
+          }
+        },
+        "location": {
+          "id": 7,
+          "start": 22,
+          "end": 34,
+          "filename": "files/test.rinha"
+        }
+      },
+      "location": {
+        "id": 8,
+        "start": 11,
+        "end": 34,
+        "filename": "files/test.rinha"
+      }
+    },
+    "location": {
+      "id": 9,
+      "start": 0,
+      "end": 34,
+      "filename": "files/test.rinha"
+    }
+  },
+  "location": {
+    "id": 10,
+    "start": 0,
+    "end": 34,
+    "filename": "files/test.rinha"
+  }
+}
